@@ -1,0 +1,57 @@
+/****************************************************************************base styles*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    background: url('../images/readerman.jpeg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-color: #141510;
+}
+#board {
+    height: 532px;
+    width: 750px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(16, 15, 15, 0.4);
+    border: 10px solid rgba(16, 15, 15, 0.4);
+}
+.card {
+    height: 128px;
+    width: 90px;
+    margin: 7px;
+}
+/*
+  .astro{
+    background: url('../images/readerman.jpeg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    background-position: center;
+  }
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); 
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/*******************************************************************************cards*/
+
+/****************************************************************************breakpoints*/
+  @media screen and (max-width: 600px) {
+    /* CSS styles for small devices */
+}
+  
+  @media screen and (min-width: 601px) and (max-width: 1024px) {
+    /* CSS styles for medium devices */
+}
+  @media screen and (min-width: 1025px) {
+    /* CSS styles for large devices */
+  }
+  /****************************************************************************buttons*/
+  /*********************************************************************layout and positioning*/
