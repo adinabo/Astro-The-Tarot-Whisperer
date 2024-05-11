@@ -23,22 +23,8 @@ body {
     width: 90px;
     margin: 7px;
 }
-/*
-  .astro{
-    background: url('../images/readerman.jpeg');
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    height: 100vh; 
-    background-position: center;
-  }
-
-.container {
-  max-width: 800px;
-  margin: 50px auto;
-  padding: 20px;
-  background-color: rgba(255, 255, 255, 0.8); 
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+h2{
+    color: rgb(190, 189, 189);
 }
 /*******************************************************************************cards*/
 
@@ -53,5 +39,3 @@ body {
   @media screen and (min-width: 1025px) {
     /* CSS styles for large devices */
   }
-  /****************************************************************************buttons*/
-  /*********************************************************************layout and positioning*/

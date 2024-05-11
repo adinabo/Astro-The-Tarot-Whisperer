@@ -1,39 +1,45 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Astro - Cards Matching Game
 
-Welcome,
+Astro is a simple cards matching game where players need to find matching pairs of tarot cards. 
+10 tarot cards have been duplicated, resulting in a total of 20 cards for players to match. The duplicated cards are randomly shuffled to ensure a unique arrangement each time the game is played.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Features
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+- Matching pairs of tarot cards.
+- Simple and intuitive game.
+- Fun and engaging for all ages.
 
-## Codeanywhere Reminders
+## How to Play
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+1. Click to Reveal: Click on a card to unveil its mystical symbol. Each card holds a unique image representing a facet of the tarot's wisdom. Take your time to absorb the energy of each card as it is revealed.
+2. Match the Symbols: Once you've uncovered the symbol on one card, click on another to reveal its symbol as well. Pay close attention to the imagery and symbolism of each card, as finding matching pairs will unlock deeper insights.
+3. Unlock the Mysteries: As you uncover matching pairs of cards, their secrets will be revealed to you. Embrace the connections between the cards and let their wisdom guide you on your journey.
+4. Unravel the Tarot: Dive deeper into the mystical realm of the tarot by continuing to flip cards until all pairs are matched. Each match brings you closer to unraveling the mysteries of the tarot and unlocking its full potential.
+5. Embrace the Journey: Throughout your exploration of the tarot, remember to embrace the journey and trust in the wisdom of the cards. Let intuition be your guide as you navigate the intricate tapestry of symbols and meanings woven within the tarot deck.
 
-`python3 -m http.server`
+## User Stories
+ **As a player, I want to be able to click on a card to reveal its symbol, so I can begin playing the game and uncover the hidden symbols.**
+   
+**I want to be able to click on another card to reveal its symbol, so I can try to find matching pairs and progress in the game.**
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+3. **As a player, I want the symbols on matching pairs of cards to stay open, so I can track my progress and remember which cards I've already matched.**
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+4. **As a player, I want the symbols on non-matching pairs of cards to flip back over, so I can continue searching for matching pairs.**
 
-`http_server`
+9. **I want the game to have a visually appealing design and theme, so I can enjoy the experience of playing and immerse myself in the game's atmosphere.**
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Technologies Used
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- HTML
+- CSS
+- JavaScript
+- Figma for Wireframes
+- Microsoft Designer for AI generated images
+- Git and Github
 
-To log into the Heroku toolbelt CLI:
+## Installation
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+1. Clone this repository using the following command:
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+   git clone https://github.com/adinabo/Milestone-2
