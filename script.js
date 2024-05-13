@@ -19,10 +19,10 @@ var columns =5;
 
 var card1Selected;
 var card2Selected;
-
+/*
 window.onload = function() {
     startGame(); // Call startGame function on page load
-}
+} */
 
 function startGame() {
     shuffleCards();
@@ -44,6 +44,9 @@ function shuffleCards() {
     console.log(cardSet);
 }
 
+/**
+ * This function creates the board and shows the cards for 2.5 seconds
+ */
 function createBoard() {
     document.getElementById("board").innerHTML = "";
     for (let r = 0; r < rows; r++) {
@@ -66,6 +69,9 @@ function createBoard() {
     setTimeout(hideCards, 2500);
 }
 
+/**
+ * This function hides the cards
+ */
 function hideCards() {
     for (let r = 0; r < rows; r++) {
         for (let c = 0; c < columns; c++) {
@@ -75,6 +81,9 @@ function hideCards() {
     }
 }
 
+/**
+ * This function selects the cards and flips them
+ */
 function selectCard() {
   if (this.src.includes("back")) {
       if (!card1Selected) {
@@ -101,8 +110,11 @@ function selectCard() {
   }
 }
 
+/**
+ * This function flips the cards back if they aren't the same
+ */
 function update() {
-    //if cards aren't the same, flip both back
+
     if (card1Selected.src != card2Selected.src) {
         card1Selected.src = "assets/images/back.jpeg";
         card2Selected.src = "assets/images/back.jpeg";
@@ -120,8 +132,11 @@ function update() {
     card2Selected = null;
 }
 
+/**
+ * Function below iterates through the board array and checks if any card is still facing down
+ */
 function allCardsMatched() {
-    // Iterate through the board array and check if any card is still facing down
+    
     for (let r = 0; r < rows; r++) {
         for (let c = 0; c < columns; c++) {
             let card = document.getElementById(r.toString() + "-" + c.toString());
@@ -133,7 +148,36 @@ function allCardsMatched() {
     return true; // If all cards are matched, return true
 }
 
+/**
+ *  Function below displays a message when the user has finished matching all cards
+ */
+
 function endGame() {
-    // Perform end-game actions here
+
     alert("Congratulations! You've matched all the cards! Click 'Start Game' to play again");
+    errors = 0;
+    document.getElementById("errors").innerText = errors;
 }
+
+
+/*the code below (for creting the stars) was taken from the following source:
+ https://codepen.io/psyloute/pen/PoXmqym*******/
+function getRandom(min, max) {
+    return Math.random() * (max - min) + min;
+  }
+  // Select stars
+  const stars = document.querySelectorAll('.star');
+  // Random position for each star
+  stars.forEach((star, index) => {
+  // The function passed to forEach will be executed for each "star" element.
+    // star represents the current element in the loop
+    // index represents the index of the current element in the array (0 for the first element, 1 for the second, etc.
+    const top = getRandom(0, 100) + 'vh';
+    const left = getRandom(0, 100) + 'vw';
+    const delay = getRandom(0, 15) + 's';
+  
+    star.style.top = top;
+    star.style.left = left;
+    star.style.animationDelay = delay;
+  })
+  /****************************************************************************** */
