@@ -9,8 +9,7 @@ var cardList = [
     "hanged-man",
     "hermit",
     "judgement",
-    "justice"
-]
+    "justice"];
 
 var cardSet;
 var board = [];
@@ -133,7 +132,8 @@ function update() {
 }
 
 /**
- * Function below iterates through the board array and checks if any card is still facing down
+ * Function below iterates through the board array and checks
+ *  if any card is still facing down
  */
 function allCardsMatched() {
     
@@ -149,7 +149,8 @@ function allCardsMatched() {
 }
 
 /**
- *  Function below displays a message when the user has finished matching all cards
+ *  Function below displays a message when the user
+ *  has finished matching all cards
  */
 
 function endGame() {
@@ -171,7 +172,8 @@ function getRandom(min, max) {
   stars.forEach((star, index) => {
   // The function passed to forEach will be executed for each "star" element.
     // star represents the current element in the loop
-    // index represents the index of the current element in the array (0 for the first element, 1 for the second, etc.
+    // index represents the index of the current element 
+    //in the array (0 for the first element, 1 for the second, etc.
     const top = getRandom(0, 100) + 'vh';
     const left = getRandom(0, 100) + 'vw';
     const delay = getRandom(0, 15) + 's';
@@ -180,4 +182,3 @@ function getRandom(min, max) {
     star.style.left = left;
     star.style.animationDelay = delay;
   })
-  /****************************************************************************** */
