@@ -3,13 +3,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 10px;
-    background: url('../images/readerman.jpeg');
+    background: url('../images/readerman.jpeg') center 0 no-repeat;
     background-color: #141510;
+    background-size: cover;
     position: relative;
     overflow: hidden;
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    background-position: center;
 }
 
 #board {
@@ -30,12 +28,11 @@ body {
 
 h2 {
     color: rgb(209, 207, 207);
-    font-family: 'Lucida Sans', sans-serif ;
-
+    font-family: 'Lucida Sans', sans-serif;
 }
 
 .button {
-    font-family: 'Lucida Sans', sans-serif ;
+    font-family: 'Lucida Sans', sans-serif;
     font-size: 20px;
     color: #d3c5c5;
     background-color: #604646;
@@ -47,7 +44,6 @@ h2 {
     box-shadow: inset 0 0 5px #000000, 0 0 10px 2px #1a1a1a;
     cursor: pointer;
     transition: all 0.3s ease;
- 
 }
 
 .button:hover {
@@ -62,11 +58,11 @@ h2 {
     border-color: #333;
     box-shadow: inset 0 0 10px #000000, 0 0 10px 2px #000000;
 }
+
 /*******************************************************************************header*/
 .header {
     font-size: 40px;
-    font-family: 'Lucida Sans', sans-serif ;
-    text-align: center;
+    font-family: 'Lucida Sans', sans-serif;
     text-align: center;
     background: linear-gradient(90deg, rgba(205, 202, 202, 0.929), rgba(255, 0, 0, 0.8));
     -webkit-background-clip: text;
@@ -75,27 +71,28 @@ h2 {
     animation: glow 1.5s infinite alternate;
     margin-top: 10px;
 }
+
 .error {
     font-size: 25px;
-    font-family: 'Lucida Sans', sans-serif ;
+    font-family: 'Lucida Sans', sans-serif;
     text-align: left;
     background: linear-gradient(90deg, rgba(205, 202, 202, 0.929), rgba(255, 0, 0, 0.8));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);;
-  
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
+
 /********************************************************************************sparkle*/
 @keyframes sparkle {
     0%, 100% {
-      opacity: 0;
-      transform: scale(1.5);
-      box-shadow: 0px 0px 10px 5px #ffffff5e;
+        opacity: 0;
+        transform: scale(1.5);
+        box-shadow: 0 0 10px 5px #ffffff5e;
     }
     50% {
-      opacity: 1;
-      transform: scale(1);
-      box-shadow: 0px 0px 10px 5px white;
+        opacity: 1;
+        transform: scale(1);
+        box-shadow: 0 0 10px 5px white;
     }
 }
 
@@ -110,7 +107,7 @@ h2 {
 }
 
 /****************************************************************************breakpoints*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 596px) {
     .container {
         max-width: 768px;
         margin: 0 auto;
@@ -123,8 +120,33 @@ h2 {
         height: 89px;
         width: 72px;
     }
+    .header {
+        font-size: 30px;
+    }
+    .error {
+        font-size: 20px;
+    }
+    .button {
+        width: 120px;
+        height: 43px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 597px) and (max-width: 700px) {
+    .container {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+    #board {
+        height: 552px;
+        width: 410px;
+    }
+    .card {
+        height: 89px;
+        width: 72px;
+    }
     body {
-        background-position: cover 0px; 
         background-size: 220%;
     }
     .header {
@@ -140,22 +162,18 @@ h2 {
     }
 }
 
-@media screen and (min-width: 601px) and (max-width: 1024px) {
+@media screen and (min-width: 701px) and (max-width: 1024px) {
     .container {
         max-width: 768px;
         margin: 0 auto;
     }
     #board {
-        height: 412px;
+        height: 612px;
         width: 470px;
     }
     .card {
         height: 79px;
         width: 62px;
-    }
-    body {
-        background-position: cover 0px; 
-        background-size: 100%;
     }
     .header {
         font-size: 30px;
@@ -169,18 +187,8 @@ h2 {
         font-size: 13px;
     }
 }
-
 @media screen and (min-width: 1025px) and (max-width: 1599px) {
     body {
-        background-position: cover; 
         background-size: 100%;
     }
 }
-
-@media screen and (min-width: 1600px) {
-    body {
-        background-size: 100%;
-        background-position: center 0px; 
-    }
-}
-

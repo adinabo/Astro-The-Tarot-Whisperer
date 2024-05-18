@@ -1,15 +1,24 @@
-# Astro - Cards Matching Game
+# Astro - The Tarot Whisperer
 
-Astro is a simple cards matching game where players need to find matching pairs of tarot cards. 
+Astro is a simple cards matching game where players need to find matching pairs of tarot cards.
 10 tarot cards have been duplicated, resulting in a total of 20 cards for players to match. The duplicated cards are randomly shuffled to ensure a unique arrangement each time the game is played.
+
+
+Initially, the plan was to create a tarot reading website (initial wireframes below), but I decided that for this project it would be better to experiment with JavaScript and develop a simple and fun game using tarot cards.
+
+![Inital wireframes](assets\images\wireframe1.jpg)
 
 ## Features
 
 - Matching pairs of tarot cards.
 - Simple and intuitive game.
 - Fun and engaging for all ages.
+- Start Game Button that starts a new game
+- Error counter that resets when a new game is started
 
 ## How to Play
+
+To start the game, the user will press the the Start Game button.
 
 1. Click to Reveal: Click on a card to unveil its mystical symbol. Each card holds a unique image representing a facet of the tarot's wisdom. Take your time to absorb the energy of each card as it is revealed.
 2. Match the Symbols: Once you've uncovered the symbol on one card, click on another to reveal its symbol as well. Pay close attention to the imagery and symbolism of each card, as finding matching pairs will unlock deeper insights.
@@ -17,17 +26,9 @@ Astro is a simple cards matching game where players need to find matching pairs 
 4. Unravel the Tarot: Dive deeper into the mystical realm of the tarot by continuing to flip cards until all pairs are matched. Each match brings you closer to unraveling the mysteries of the tarot and unlocking its full potential.
 5. Embrace the Journey: Throughout your exploration of the tarot, remember to embrace the journey and trust in the wisdom of the cards. Let intuition be your guide as you navigate the intricate tapestry of symbols and meanings woven within the tarot deck.
 
-## User Stories
- **As a player, I want to be able to click on a card to reveal its symbol, so I can begin playing the game and uncover the hidden symbols.**
-   
-**I want to be able to click on another card to reveal its symbol, so I can try to find matching pairs and progress in the game.**
+Each time the user matches the wrong cards, the error count will be updated to reflect the total number of errors.
 
-3. **As a player, I want the symbols on matching pairs of cards to stay open, so I can track my progress and remember which cards I've already matched.**
-
-4. **As a player, I want the symbols on non-matching pairs of cards to flip back over, so I can continue searching for matching pairs.**
-
-9. **I want the game to have a visually appealing design and theme, so I can enjoy the experience of playing and immerse myself in the game's atmosphere.**
-
+When the user has successfully matched all the cards, a message will be displayed.
 
 ## Technologies Used
 
@@ -40,6 +41,63 @@ Astro is a simple cards matching game where players need to find matching pairs 
 
 ## Installation
 
-1. Clone this repository using the following command:
+Clone this repository using the following command:
 
    git clone https://github.com/adinabo/Milestone-2
+
+## Deployment
+
+The website was successfully deployed to GitHub. Steps to deploy it:
+
+1. Go to the Settings tab in the GitHub repository.
+
+2. Scroll down to GitHub Pages and click on "Check it out here!"
+
+3. Make sure to choose "main" under "Source".
+
+4. The page will automatically refresh, showing a detailed ribbon display confirming the deployment.
+
+The live site can be found at the following link: https://github.com/adinabo/Milestone-2-Tarot-cards-game
+
+# Bugs
+
+# Testing
+- WS3 HTML Testing Validator: 
+https://validator.w3.org/nu/#l43c82
+- CSS 
+
+
+## User Stories
+
+**As a player, I want to be able to click on a card to reveal its symbol, so I can begin playing the game and uncover the hidden symbols.**
+
+**I want to be able to click on another card to reveal its symbol, so I can try to find matching pairs and progress in the game.**
+
+3. **As a player, I want the symbols on matching pairs of cards to stay open, so I can track my progress and remember which cards I've already matched.**
+
+4. **As a player, I want the symbols on non-matching pairs of cards to flip back over, so I can continue searching for matching pairs.**
+
+5. **I want the game to have a visually appealing design and theme, so I can enjoy the experience of playing and immerse myself in the game's atmosphere.**
+
+## Credits
+
+# Content
+
+All content was written by the developer
+The source for sparkle https://codepen.io/psyloute/pen/PoXmqym*******/
+
+# Imagery
+
+The background image and the cards were generated with Microsoft Designer AI.
+
+# Code
+https://www.freecodecamp.org/ was used to practice JavaScript.
+
+https://www.youtube.com/@codewithbubb and https://www.youtube.com/@KennyYipCoding
+tutorials were useful in learning how to create a game.
+
+# Acknowledgements
+
+- My mentor Spencer Barriball for his support and feedback.
+- Code Institute's Tutor Support
+- Newcastle College
