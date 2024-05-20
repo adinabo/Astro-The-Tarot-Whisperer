@@ -114,7 +114,7 @@ h2 {
     }
     #board {
         height: 532px;
-        width: 410px;
+        width: 380px;
     }
     .card {
         height: 89px;
@@ -162,7 +162,7 @@ h2 {
     }
 }
 
-@media screen and (min-width: 701px) and (max-width: 1024px) {
+@media screen and (min-width: 701px) and (max-width: 1020px) {
     .container {
         max-width: 768px;
         margin: 0 auto;
@@ -187,8 +187,16 @@ h2 {
         font-size: 13px;
     }
 }
-@media screen and (min-width: 1025px) and (max-width: 1599px) {
+@media screen and (min-width: 1021px) and (max-width: 1599px) {
     body {
         background-size: 100%;
+    }
+    #board {
+        height: 712px;
+        width: 570px;
+    }
+    .card {
+        height: 99px;
+        width: 82px;
     }
 }

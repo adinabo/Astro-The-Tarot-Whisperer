@@ -1,12 +1,15 @@
 # Astro - The Tarot Whisperer
 
-Astro is a simple cards matching game where players need to find matching pairs of tarot cards.
-10 tarot cards have been duplicated, resulting in a total of 20 cards for players to match. The duplicated cards are randomly shuffled to ensure a unique arrangement each time the game is played.
+Astro is an engaging and simple card-matching game where players are tasked with finding matching pairs of tarot cards. In this game, a selection of 10 unique tarot cards is duplicated, creating a total of 20 cards that players must match. The objective is to identify and match all pairs of cards.
+
+Each game session starts with these 20 cards being thoroughly shuffled to ensure a unique and unpredictable arrangement, making every game a new and exciting challenge. Players will need to use their memory and concentration skills to remember the positions of the cards as they flip them over, aiming to find all matching pairs with as few mistakes as possible.
+
+![Responsiveness](/assets/images/responsive.jpg)
 
 
-Initially, the plan was to create a tarot reading website (initial wireframes below), but I decided that for this project it would be better to experiment with JavaScript and develop a simple and fun game using tarot cards.
+Initially, my plan was to create a tarot reading website (initial wireframes below), but I decided that for this project it would be better to experiment with JavaScript and develop a simple and fun game using tarot cards.
 
-![Inital wireframes](assets\images\wireframe1.jpg)
+![Inital wireframes](/assets/images/wireframe1.jpg)
 
 ## Features
 
@@ -37,7 +40,7 @@ When the user has successfully matched all the cards, a message will be displaye
 - JavaScript
 - Figma for Wireframes
 - Microsoft Designer for AI generated images
-- Git and Github
+- Git and Github for version control
 
 ## Installation
 
@@ -84,6 +87,7 @@ https://validator.w3.org/nu/#l43c82
 # Content
 
 All content was written by the developer
+
 The source for sparkle https://codepen.io/psyloute/pen/PoXmqym*******/
 
 # Imagery
