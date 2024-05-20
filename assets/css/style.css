@@ -58,6 +58,10 @@ h2 {
     border-color: #333;
     box-shadow: inset 0 0 10px #000000, 0 0 10px 2px #000000;
 }
+.text-center {
+    color: rgb(179, 178, 178);
+    margin-top: 20px;
+}
 
 /*******************************************************************************header*/
 .header {
