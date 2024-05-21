@@ -1,5 +1,5 @@
-var errors = 0;
-var cardList = [
+let errors = 0;
+let cardList = [
     "chariot",
     "death",
     "devil",
@@ -11,16 +11,18 @@ var cardList = [
     "judgement",
     "justice"];
 
-var cardSet;
-var board = [];
-var rows = 4;
-var columns =5;
+let cardSet;
+let board = [];
+let rows = 4;
+let columns =5;
 
-var card1Selected;
-var card2Selected;
+let card1Selected;
+let card2Selected;
 
 
 function startGame() {
+    var endGameMessage = document.getElementById('endGameMessage');
+    endGameMessage.classList.add('hidden');
     errors = 0;
     document.getElementById("errors").innerText = errors;
     cardSet = [];
@@ -146,7 +148,8 @@ function allCardsMatched() {
  * has finished matching all cards
  */
 function endGame() {
-    alert("Congratulations! You've matched all the cards! Click 'Start Game' to play again");
+    var endGameMessage = document.getElementById('endGameMessage');
+    endGameMessage.classList.remove('hidden');
     errors = 0;
     document.getElementById("errors").innerText = errors;
 }

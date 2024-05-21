@@ -64,16 +64,17 @@ h2 {
 }
 /******************************************************************************End game message*/
 .hidden {
-    display: ;
+    display: none;
 }
 
 #endGameMessage {
     font-family: 'Lucida Sans', sans-serif;
     font-size: 25px;
+    background-color: #60464696;
     font-weight: 600;
     color: #c45454;
     margin: 10px;
-    -webkit-text-fill-color: hsl(0deg 6.88% 62.4% / 83%);
+    -webkit-text-fill-color: hsla(0, 7%, 63%, 0.941);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
