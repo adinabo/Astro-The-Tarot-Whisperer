@@ -62,6 +62,20 @@ h2 {
     color: rgb(179, 178, 178);
     margin-top: 20px;
 }
+/******************************************************************************End game message*/
+.hidden {
+    display: ;
+}
+
+#endGameMessage {
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #c45454;
+    margin: 10px;
+    -webkit-text-fill-color: hsl(0deg 6.88% 62.4% / 83%);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
 
 /*******************************************************************************header*/
 .header {
@@ -204,3 +218,4 @@ h2 {
         width: 82px;
     }
 }
+

@@ -68,6 +68,7 @@ The live site can be found at the following link: https://github.com/adinabo/Mil
 - WS3 HTML Testing Validator: 
 https://validator.w3.org/nu/#l43c82
 - CSS 
+- JavaScript
 
 
 ## User Stories
@@ -82,25 +83,25 @@ https://validator.w3.org/nu/#l43c82
 
 5. **I want the game to have a visually appealing design and theme, so I can enjoy the experience of playing and immerse myself in the game's atmosphere.**
 
-## Credits
+# Credits
 
-# Content
+## Content
 
 All content was written by the developer
 
 The source for sparkle https://codepen.io/psyloute/pen/PoXmqym*******/
 
-# Imagery
+## Imagery
 
 The background image and the cards were generated with Microsoft Designer AI.
 
-# Code
+## Code
 https://www.freecodecamp.org/ was used to practice JavaScript.
 
 https://www.youtube.com/@codewithbubb and https://www.youtube.com/@KennyYipCoding
 tutorials were useful in learning how to create a game.
 
-# Acknowledgements
+## Acknowledgements
 
 - My mentor Spencer Barriball for his support and feedback.
 - Code Institute's Tutor Support
