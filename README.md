@@ -24,11 +24,11 @@ Initially, my plan was to create a tarot reading website (initial wireframes bel
 
 To start the game, the user will press the the Start Game button.
 
-1. Click to Reveal: Click on a card to unveil its mystical symbol. Each card holds a unique image representing a facet of the tarot's wisdom. Take your time to absorb the energy of each card as it is revealed.
-2. Match the Symbols: Once you've uncovered the symbol on one card, click on another to reveal its symbol as well. Pay close attention to the imagery and symbolism of each card, as finding matching pairs will unlock deeper insights.
-3. Unlock the Mysteries: As you uncover matching pairs of cards, their secrets will be revealed to you. Embrace the connections between the cards and let their wisdom guide you on your journey.
-4. Unravel the Tarot: Dive deeper into the mystical realm of the tarot by continuing to flip cards until all pairs are matched. Each match brings you closer to unraveling the mysteries of the tarot and unlocking its full potential.
-5. Embrace the Journey: Throughout your exploration of the tarot, remember to embrace the journey and trust in the wisdom of the cards. Let intuition be your guide as you navigate the intricate tapestry of symbols and meanings woven within the tarot deck.
+1. **Click to Reveal:** Click on a card to unveil its mystical symbol. Each card holds a unique image representing a facet of the tarot's wisdom. Take your time to absorb the energy of each card as it is revealed.
+2. **Match the Symbols:** Once you've uncovered the symbol on one card, click on another to reveal its symbol as well. Pay close attention to the imagery and symbolism of each card, as finding matching pairs will unlock deeper insights.
+3. **Unlock the Mysteries:** As you uncover matching pairs of cards, their secrets will be revealed to you. Embrace the connections between the cards and let their wisdom guide you on your journey.
+4. **Unravel the Tarot:** Dive deeper into the mystical realm of the tarot by continuing to flip cards until all pairs are matched. Each match brings you closer to unraveling the mysteries of the tarot and unlocking its full potential.
+5. **Embrace the Journey:** Throughout your exploration of the tarot, remember to embrace the journey and trust in the wisdom of the cards. Let intuition be your guide as you navigate the intricate tapestry of symbols and meanings woven within the tarot deck.
 
 Each time the user matches the wrong cards, the error count will be updated to reflect the total number of errors.
 
@@ -45,26 +45,31 @@ When the user has successfully matched all the cards, a message will be displaye
 
 ## Installation
 
-Clone this repository using the following command:
+To install the game locally, follow these steps:
 
-   git clone https://github.com/adinabo/Milestone-2
+1. Clone the repository using the following command:
+
+git clone https://github.com/adinabo/Astro-The-Tarot-Whisperer
+
+2. Open the project folder and open index.html in your preferred browser.
 
 ## Deployment
 
 The website was successfully deployed to GitHub. Steps to deploy it:
 
-1. Go to the Settings tab in the GitHub repository.
+1. Go to the **Settings** tab in the GitHub repository.
 
-2. Scroll down to GitHub Pages and click on "Check it out here!"
+2. Scroll down to **GitHub Pages** and click on **"Check it out here!"**
 
-3. Make sure to choose "main" under "Source".
+3. Make sure to choose **"main"** under **"Source"**.
 
 4. The page will automatically refresh, showing a detailed ribbon display confirming the deployment.
 
-The live site can be found at the following link: https://github.com/adinabo/Milestone-2-Tarot-cards-game
+The live site can be found at the following link: https://github.com/adinabo/Astro-The-Tarot-Whisperer
 
 # Bugs
-- Pressing "Start Game" multiple times did show different cards but when selecting the card, it would switch back to the ones showed the first time. I found that the board array was not reset correctly and the card elements were being appended to the board container without clearing the existing ones. I fixed that by making sure the boat is reset to an empty array each time the game starts.
+- Pressing "Start Game" multiple times initially showed different cards but reverted to the first set. This was fixed by resetting the board array correctly each time the game starts.
+- Clicking Too Fast: If the player clicks on cards too quickly, the game might not register the selections properly and there is a slight delay.
 
 # Testing
 - WS3 HTML Testing Validator
@@ -77,10 +82,10 @@ The live site can be found at the following link: https://github.com/adinabo/Mil
 ![JavaScript testing result](/assets/images/test3.jpg)
 
 Tests Conducted While Playing the Game:
-- Card Selection Test: Pressed three cards consecutively to verify if the third card would be displayed correctly.
-- Game Reset Test: Pressed the "Start Game" button multiple times to ensure the cards reset properly each time.
-- Device Compatibility Test: Played the game on various devices, including a laptop, desktop, iPhone 14, and Samsung S24, confirming that the game displays correctly across all devices. Noted that there is potential for future UI improvements.
-- Error Counter Test: Intentionally failed to match the cards several times to check if the error counter accurately updates, which it does.
+- **Card Selection Test:** Pressed three and more cards consecutively to verify if the third card would be displayed.
+- **Game Reset Test:** Pressed the "Start Game" button multiple times to ensure the cards reset properly each time.
+-**Device Compatibility Test:** Played the game on various devices, including a laptop, desktop, iPhone 14, and Samsung S24, confirming that the game displays correctly across all devices. Future UI improvements are noted.
+-**Error Counter Test:** Intentionally failed to match the cards several times to check if the error counter accurately updates.
 
 
 ## User Stories
