@@ -13,11 +13,12 @@ Initially, my plan was to create a tarot reading website (initial wireframes bel
 
 ## Features
 
-- Matching pairs of tarot cards.
-- Simple and intuitive game.
-- Fun and engaging for all ages.
+- Matching pairs of tarot cards
+- Simple and intuitive game
+- Fun and engaging for all ages
 - Start Game Button that starts a new game
 - Error counter that resets when a new game is started
+- Sparkling stars in the background for a magical touch
 
 ## How to Play
 
@@ -66,11 +67,14 @@ The live site can be found at the following link: https://github.com/adinabo/Mil
 - Pressing "Start Game" multiple times did show different cards but when selecting the card, it would switch back to the ones showed the first time. I found that the board array was not reset correctly and the card elements were being appended to the board container without clearing the existing ones. I fixed that by making sure the boat is reset to an empty array each time the game starts.
 
 # Testing
-- WS3 HTML Testing Validator: 
+- WS3 HTML Testing Validator
+![HTML testing result](/assets/images/test1.jpg)
 
 - CSS 
+![CSS testing result](/assets/images/test2.jpg)
 
 - JavaScript
+![JavaScript testing result](/assets/images/test3.jpg)
 
 Tests Conducted While Playing the Game:
 - Card Selection Test: Pressed three cards consecutively to verify if the third card would be displayed correctly.
