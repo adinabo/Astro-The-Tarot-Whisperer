@@ -140,7 +140,7 @@ function allCardsMatched() {
         for (let c = 0; c < columns; c++) {
             let cardId = r.toString() + "-" + c.toString();
             let card = document.getElementById(cardId);
-            if (card.src.includes("back")) {
+            if (card.src.includes("back")){
                 return false; // If any card is facing down, return false
             }
         }
