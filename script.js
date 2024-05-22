@@ -80,7 +80,8 @@ function createBoard() {
 function hideCards() {
     for (let r = 0; r < rows; r++) {
         for (let c = 0; c < columns; c++) {
-            let card = document.getElementById(r.toString() + "-" + c.toString());
+            let cardId = r.toString() + "-" + c.toString();
+            let card = document.getElementById(cardId);
             card.src = "assets/images/back.jpeg";
         }
     }
@@ -137,7 +138,8 @@ function update() {
 function allCardsMatched() {
     for (let r = 0; r < rows; r++) {
         for (let c = 0; c < columns; c++) {
-            let card = document.getElementById(r.toString() + "-" + c.toString());
+            let cardId = r.toString() + "-" + c.toString();
+            let card = document.getElementById(cardId);
             if (card.src.includes("back")) {
                 return false; // If any card is facing down, return false
             }
