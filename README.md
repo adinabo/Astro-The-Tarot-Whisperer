@@ -26,10 +26,10 @@ Initially, my plan was to create a tarot reading website (initial wireframes bel
 To start the game, the user will press the the Start Game button.
 
 1. **Click to Reveal:** Click on a card to unveil its mystical symbol. Each card holds a unique image representing a facet of the tarot's wisdom. Take your time to absorb the energy of each card as it is revealed.
-2. **Match the Symbols:** Once you've uncovered the symbol on one card, click on another to reveal its symbol as well. Pay close attention to the imagery and symbolism of each card, as finding matching pairs will unlock deeper insights.
-3. **Unlock the Mysteries:** As you uncover matching pairs of cards, their secrets will be revealed to you. Embrace the connections between the cards and let their wisdom guide you on your journey.
-4. **Unravel the Tarot:** Dive deeper into the mystical realm of the tarot by continuing to flip cards until all pairs are matched. Each match brings you closer to unraveling the mysteries of the tarot and unlocking its full potential.
-5. **Embrace the Journey:** Throughout your exploration of the tarot, remember to embrace the journey and trust in the wisdom of the cards. Let intuition be your guide as you navigate the intricate tapestry of symbols and meanings woven within the tarot deck.
+2. **Match the Symbols:** Click on another card to find its match. Use your memory to remember the positions of previously revealed cards.
+3. **Find all Pairs:** Continue flipping cards and finding matching pairs until all cards are matched.
+4. **Keep Track of Errors:** Each time you mismatch cards, the error counter will update, helping you track your progress.
+5. **Restart the Game:** Click the "Start Game" button to reset the game and start a new round.
 
 Each time the user matches the wrong cards, the error count will be updated to reflect the total number of errors.
 
