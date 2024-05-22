@@ -63,12 +63,20 @@ The website was successfully deployed to GitHub. Steps to deploy it:
 The live site can be found at the following link: https://github.com/adinabo/Milestone-2-Tarot-cards-game
 
 # Bugs
+- Pressing "Start Game" multiple times did show different cards but when selecting the card, it would switch back to the ones showed the first time. I found that the board array was not reset correctly and the card elements were being appended to the board container without clearing the existing ones. I fixed that by making sure the boat is reset to an empty array each time the game starts.
 
 # Testing
 - WS3 HTML Testing Validator: 
-https://validator.w3.org/nu/#l43c82
+
 - CSS 
+
 - JavaScript
+
+Tests Conducted While Playing the Game:
+- Card Selection Test: Pressed three cards consecutively to verify if the third card would be displayed correctly.
+- Game Reset Test: Pressed the "Start Game" button multiple times to ensure the cards reset properly each time.
+- Device Compatibility Test: Played the game on various devices, including a laptop, desktop, iPhone 14, and Samsung S24, confirming that the game displays correctly across all devices. Noted that there is potential for future UI improvements.
+- Error Counter Test: Intentionally failed to match the cards several times to check if the error counter accurately updates, which it does.
 
 
 ## User Stories

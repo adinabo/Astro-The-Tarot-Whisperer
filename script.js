@@ -14,7 +14,7 @@ let cardList = [
 let cardSet;
 let board = [];
 let rows = 4;
-let columns =5;
+let columns = 5;
 
 let card1Selected;
 let card2Selected;
@@ -24,8 +24,8 @@ let card2Selected;
  * the end game congrats message
  */
 function startGame() {
-    var endGameMessage = document.getElementById('endGameMessage');
-    endGameMessage.classList.add('hidden');
+    let endGameMessage = document.getElementById("endGameMessage");
+    endGameMessage.classList.add("hidden");
     errors = 0;
     document.getElementById("errors").innerText = errors;
     cardSet = [];
@@ -41,7 +41,7 @@ function startGame() {
  */
 function shuffleCards() {
     cardSet = cardList.concat(cardList); // Create a pair for each card
-    for (let i = cardSet.length - 1; i > 0; i--) {
+    for ( let i = cardSet.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [cardSet[i], cardSet[j]] = [cardSet[j], cardSet[i]]; // Swap elements
     }
@@ -151,8 +151,8 @@ function allCardsMatched() {
  * has finished matching all cards
  */
 function endGame() {
-    var endGameMessage = document.getElementById('endGameMessage');
-    endGameMessage.classList.remove('hidden');
+    var endGameMessage = document.getElementById("endGameMessage");
+    endGameMessage.classList.remove("hidden");
     errors = 0;
     document.getElementById("errors").innerText = errors;
 }
@@ -162,11 +162,11 @@ function getRandom(min, max) {
     return Math.random() * (max - min) + min;
 }
 
-const stars = document.querySelectorAll('.star');
+const stars = document.querySelectorAll(".star");
 stars.forEach((star, index) => {
-    const top = getRandom(0, 100) + 'vh';
-    const left = getRandom(0, 100) + 'vw';
-    const delay = getRandom(0, 15) + 's';
+    const top = getRandom(0, 100) + "vh";
+    const left = getRandom(0, 100) + "vw";
+    const delay = getRandom(0, 15) + "s";
     star.style.top = top;
     star.style.left = left;
     star.style.animationDelay = delay;
