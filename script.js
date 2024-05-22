@@ -19,7 +19,10 @@ let columns =5;
 let card1Selected;
 let card2Selected;
 
-
+/**
+ * This function starts the game when pressing "start game" button and hides
+ * the end game congrats message
+ */
 function startGame() {
     var endGameMessage = document.getElementById('endGameMessage');
     endGameMessage.classList.add('hidden');
