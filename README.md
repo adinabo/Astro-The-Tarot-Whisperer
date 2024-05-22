@@ -13,12 +13,12 @@ Initially, my plan was to create a tarot reading website (initial wireframes bel
 
 ## Features
 
-- Matching pairs of tarot cards
-- Simple and intuitive game
-- Fun and engaging for all ages
-- Start Game Button that starts a new game
-- Error counter that resets when a new game is started
-- Sparkling stars in the background for a magical touch
+- **Matching pairs of tarot cards:** Test your memory by finding matching tarot cards.
+- **Simple and intuitive gameplay:** Easy to understand and play for all ages.
+- **Fun and engaging:** Keeps players entertained with its magical theme.
+- **"Start Game" button:** Resets the game to start a new session.
+- **Error counter:** Tracks the number of incorrect matches and resets with each new game.
+- **Sparkling stars background:** Adds a magical touch to the game’s atmosphere.
 
 ## How to Play
 
