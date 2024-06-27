@@ -69,13 +69,15 @@ h2 {
 
 #endGameMessage {
     font-family: 'Lucida Sans', sans-serif;
-    font-size: 25px;
-    background-color: #60464696;
-    font-weight: 600;
-    color: #c45454;
-    margin: 10px;
-    -webkit-text-fill-color: hsla(0, 7%, 63%, 0.941);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-size: 28px;
+    font-weight: bold;
+    color: #f8f8f8; 
+    background: linear-gradient(135deg, #593a3a, #8b5e5e); 
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-align: left;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 /*******************************************************************************header*/

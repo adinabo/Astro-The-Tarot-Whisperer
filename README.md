@@ -72,22 +72,36 @@ The live site can be found at the following link: https://github.com/adinabo/Ast
 - Pressing "Start Game" multiple times initially showed different cards but reverted to the first set. This was fixed by resetting the board array correctly each time the game starts.
 - Clicking Too Fast: If the player clicks on cards too quickly, the game might not register the selections properly and there is a slight delay.
 
-# Testing
-- WS3 HTML Testing Validator
-![HTML testing result](/assets/images/test1.jpg)
+# UX Scope Testing
 
-- CSS 
-![CSS testing result](/assets/images/test2.jpg)
-
-- JavaScript
-![JavaScript testing result](/assets/images/test3.jpg)
-
-Tests Conducted While Playing the Game:
+# Manual Testing
 - **Card Selection Test:** Pressed three and more cards consecutively to verify if the third card would be displayed.
 - **Game Reset Test:** Pressed the "Start Game" button multiple times to ensure the cards reset properly each time.
 -**Device Compatibility Test:** Played the game on various devices, including a laptop, desktop, iPhone 14, and Samsung S24, confirming that the game displays correctly across all devices. Future UI improvements are noted.
 -**Error Counter Test:** Intentionally failed to match the cards several times to check if the error counter accurately updates.
 
+# Automated Testing
+
+- WS3 HTML Testing Validator
+[W3C Validator](https://validator.w3.org/)
+
+No errors were found when testing HTML file
+
+![HTML testing result](/assets/images/test1.jpg)
+
+- CSS 
+No errors were found when testing CSS file
+[CSS Validator](https://validator.w3.org/)
+
+![CSS testing result](/assets/images/test2.jpg)
+
+- JavaScript
+![JavaScript testing result](/assets/images/test3.jpg)
+
+- Google Lighthouse
+The page underwent testing with Google Lighthouse for both desktop and mobile platforms. Despite running the tests without any changes to the page, the Lighthouse results were inconsistent. This inconsistency appeared to be primarily due to layout shifts. Nevertheless, the scores remained acceptable. Through my own testing on various devices, I did not observe significant layout shifts. Even when applying throttling via devtools, there was only a minor layout shift during the initial load, which did not adversely affect the user experience.
+![Google Lighthouse desktop performance](/assets/images/desktop_perf.jpg)
+![Google Lighthouse mobile performance](/assets/images/mobile_perf.jpg)
 
 ## User Stories
 
