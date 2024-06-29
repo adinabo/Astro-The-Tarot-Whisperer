@@ -75,27 +75,63 @@ The live site can be found at the following link: https://github.com/adinabo/Ast
 # UX Scope Testing
 
 # Manual Testing
-- **Card Selection Test:** Pressed three and more cards consecutively to verify if the third card would be displayed.
-- **Game Reset Test:** Pressed the "Start Game" button multiple times to ensure the cards reset properly each time.
--**Device Compatibility Test:** Played the game on various devices, including a laptop, desktop, iPhone 14, and Samsung S24, confirming that the game displays correctly across all devices. Future UI improvements are noted.
+- Principles:
+Human Insight: Manual testing leverages human intuition and experience to identify issues that automated tests might overlook.
+Flexibility: Manual testers can adapt to changes and explore the game in creative ways, beyond predefined test cases.
+User Experience: Manual testing is essential for evaluating the game's user interface and overall user experience.
+Exploratory Testing: Manual testers can actively explore the game to uncover unexpected behavior and bugs.
+
+- **Card Selection Test:** 
+
+The objective of this test is to ensure that the game responds correctly when the cards are selected.
+- Expected result
+I was expecting to see only two cards revealed at the same time, with no errors.
+- Steps
+Clicked on three or more cards consecutively to check if each card reveals correctly.
+Verified that after the second card is selected, unmatched cards are hidden again.
+Ensured that matched cards remain visible.
+
+- **Game Reset Test:**
+- Objective
+To ensure the game resets correctly when the "Start Game" button is pressed.
+- Expected result
+I was expecting to see the game board and error counter reset correctly upon pressing the "Start Game" button.
+- Steps
+Started the game and revealed several cards.
+Pressed the "Start Game" button.
+Verified that the game board is reset and all cards are hidden.
+Checked that the error counter is reset to zero.
+
+- **Device Compatibility Test:**
+- Objective
+ Ensured the game displays and functions correctly on various devices.
+- Expected result
+As expected, the game is fully functional and visually appealing across all tested devices.
+- Steps
+Played the game on different devices, such as a laptop, desktop, iPhone 14, and Samsung S24.
+Verified that the game layout is responsive and adjusts correctly to different screen sizes.
+Checked for any visual or functional issues specific to each device
+
 -**Error Counter Test:** Intentionally failed to match the cards several times to check if the error counter accurately updates.
 
 # Automated Testing
 
+The automated tests below, that I have incorporated, help maintain the technical integrity of the game, ensuring that the codebase is robust and performs well across different devices.
+
 - WS3 HTML Testing Validator
-[W3C Validator](https://validator.w3.org/)
-
 No errors were found when testing HTML file
-
+[W3C Validator](https://validator.w3.org/)
 ![HTML testing result](/assets/images/test1.jpg)
 
 - CSS 
 No errors were found when testing CSS file
 [CSS Validator](https://validator.w3.org/)
-
 ![CSS testing result](/assets/images/test2.jpg)
 
 - JavaScript
+JsLint has returned 2 warning, however no problems with logic or syntax.
+
+[CSS testing result](https://www.jslint.com/)
 ![JavaScript testing result](/assets/images/test3.jpg)
 
 - Google Lighthouse
