@@ -68,15 +68,26 @@ The website was successfully deployed to GitHub. Steps to deploy it:
 
 The live site can be found at the following link: https://github.com/adinabo/Astro-The-Tarot-Whisperer
 
-# Bugs
+## Bugs
 - Pressing "Start Game" multiple times initially showed different cards but reverted to the first set. This was fixed by resetting the board array correctly each time the game starts.
 - Clicking Too Fast: If the player clicks on cards too quickly, the game might not register the selections properly and there is a slight delay.
 
-# UX Scope Testing
+## UX Scope Testing
+To ensure that Astro - The Tarot Whisperer provides an optimal user experience, a UX scope testing was conducted. This testing focused on various aspects of the game, including its interface, usability, functionality, and overall player engagement. Below are the key components of the UX scope testing performed for this project:
 
-# Manual Testing
+1. User Interface (UI) Testing:
 
-- Principles:
+Outcome: The game's interface was found to be visually engaging and user-friendly across different devices, with a consistent and intuitive layout.
+
+2. User Experience (UX) Testing:
+
+Feedback indicated that the game was enjoyable and easy to understand. Minor adjustments were made based on user feedback to enhance clarity and engagement.
+
+
+## Manual Testing
+
+Principles:
+
 Human Insight: Manual testing leverages human intuition and experience to identify issues that automated tests might overlook.
 
 Flexibility: Manual testers can adapt to changes and explore the game in creative ways, beyond predefined test cases.
@@ -85,7 +96,7 @@ User Experience: Manual testing is essential for evaluating the game's user inte
 
 Exploratory Testing: Manual testers can actively explore the game to uncover unexpected behavior and bugs.
 
-- **Card Selection Test:** 
+**Card Selection Test:** 
 
 The objective of this test is to ensure that the game responds correctly when the cards are selected.
 - Expected result
@@ -95,7 +106,7 @@ Clicked on three or more cards consecutively to check if each card reveals corre
 Verified that after the second card is selected, unmatched cards are hidden again.
 Ensured that matched cards remain visible.
 
-- **Game Reset Test:**
+**Game Reset Test:**
 
 - Objective
 To ensure the game resets correctly when the "Start Game" button is pressed.
@@ -107,7 +118,7 @@ Pressed the "Start Game" button.
 Verified that the game board is reset and all cards are hidden.
 Checked that the error counter is reset to zero.
 
-- **Device Compatibility Test:**
+**Device Compatibility Test:**
 
 - Objective
  To ensure that the game displays and functions correctly on various devices.
@@ -118,7 +129,7 @@ Played the game on different devices, such as a laptop, desktop, iPhone 14, and 
 Verified that the game layout is responsive and adjusts correctly to different screen sizes.
 Checked for any visual or functional issues specific to each device
 
-- **Error Counter Test:** 
+**Error Counter Test:** 
 - Objective
 To ensure the error counter accurately tracks the number of incorrect matches.
 - Expected result
@@ -135,9 +146,9 @@ Ad-Hoc Testing: Conduct manual testing for spontaneous, unplanned sessions to un
 Initial Development Stages: At the beginning of the development process, manual testing helps identify and address critical issues quickly before automated test scripts are created, ensuring a stable foundation for further development.
 
 Complex Test Cases: Deploy manual testing for scenarios that require human judgment, creativity, and insight, which are difficult to replicate with automated tests, to ensure comprehensive coverage and quality
-# Automated Testing
+## Automated Testing
 
-- Principles:
+**Principles:**
 
 Repeatability: Automated tests can be executed multiple times with the same inputs and outputs, ensuring consistent and reliable testing results. This is crucial for maintaining the game's reliability across different versions.
 
@@ -170,7 +181,7 @@ The page underwent testing with Google Lighthouse for both desktop and mobile pl
 ![Google Lighthouse desktop performance](/assets/images/desktop_perf.jpg)
 ![Google Lighthouse mobile performance](/assets/images/mobile_perf.jpg)
 
-When to Deploy:
+**When to Deploy:**
 Unit Tests: Automated testing is ideal for testing individual functions and methods in your game logic, such as card shuffling and matching algorithms.
 Integration Tests: Use automated tests to ensure that different parts of your application work together seamlessly.
 Regression Tests: Automated tests are essential whenever new features are added or bugs are fixed, ensuring that existing functionality remains unaffected.
@@ -178,9 +189,9 @@ Performance Testing: Automated tests can simulate multiple game sessions to asse
 
 ## User Stories
 
-**As a player, I want to be able to click on a card to reveal its symbol, so I can begin playing the game and uncover the hidden symbols.**
+1. **As a player, I want to be able to click on a card to reveal its symbol, so I can begin playing the game and uncover the hidden symbols.**
 
-**I want to be able to click on another card to reveal its symbol, so I can try to find matching pairs and progress in the game.**
+2. **I want to be able to click on another card to reveal its symbol, so I can try to find matching pairs and progress in the game.**
 
 3. **As a player, I want the symbols on matching pairs of cards to stay open, so I can track my progress and remember which cards I've already matched.**
 
