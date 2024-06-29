@@ -75,10 +75,14 @@ The live site can be found at the following link: https://github.com/adinabo/Ast
 # UX Scope Testing
 
 # Manual Testing
+
 - Principles:
 Human Insight: Manual testing leverages human intuition and experience to identify issues that automated tests might overlook.
+
 Flexibility: Manual testers can adapt to changes and explore the game in creative ways, beyond predefined test cases.
+
 User Experience: Manual testing is essential for evaluating the game's user interface and overall user experience.
+
 Exploratory Testing: Manual testers can actively explore the game to uncover unexpected behavior and bugs.
 
 - **Card Selection Test:** 
@@ -92,6 +96,7 @@ Verified that after the second card is selected, unmatched cards are hidden agai
 Ensured that matched cards remain visible.
 
 - **Game Reset Test:**
+
 - Objective
 To ensure the game resets correctly when the "Start Game" button is pressed.
 - Expected result
@@ -103,8 +108,9 @@ Verified that the game board is reset and all cards are hidden.
 Checked that the error counter is reset to zero.
 
 - **Device Compatibility Test:**
+
 - Objective
- Ensured the game displays and functions correctly on various devices.
+ To ensure that the game displays and functions correctly on various devices.
 - Expected result
 As expected, the game is fully functional and visually appealing across all tested devices.
 - Steps
@@ -112,11 +118,36 @@ Played the game on different devices, such as a laptop, desktop, iPhone 14, and 
 Verified that the game layout is responsive and adjusts correctly to different screen sizes.
 Checked for any visual or functional issues specific to each device
 
--**Error Counter Test:** Intentionally failed to match the cards several times to check if the error counter accurately updates.
+- **Error Counter Test:** 
+- Objective
+To ensure the error counter accurately tracks the number of incorrect matches.
+- Expected result
+As expected, the error counter updates accurately with each incorrect match.
+- Steps
+Intentionally mismatched cards multiple times.
+Observed the error counter to see if it increments correctly with each mismatch and it did.
 
+- When to Deploy Manual Tests:
+Usability Testing: Manual testing is crucial for evaluating the user interface and overall user experience, ensuring the game is intuitive and enjoyable for players.
+
+Ad-Hoc Testing: Conduct manual testing for spontaneous, unplanned sessions to uncover issues that automated tests might miss, providing a broader scope of defect detection.
+
+Initial Development Stages: At the beginning of the development process, manual testing helps identify and address critical issues quickly before automated test scripts are created, ensuring a stable foundation for further development.
+
+Complex Test Cases: Deploy manual testing for scenarios that require human judgment, creativity, and insight, which are difficult to replicate with automated tests, to ensure comprehensive coverage and quality
 # Automated Testing
 
-The automated tests below, that I have incorporated, help maintain the technical integrity of the game, ensuring that the codebase is robust and performs well across different devices.
+- Principles:
+
+Repeatability: Automated tests can be executed multiple times with the same inputs and outputs, ensuring consistent and reliable testing results. This is crucial for maintaining the game's reliability across different versions.
+
+Efficiency: Automated tests run faster than manual tests, allowing for extensive testing of various game aspects in a short amount of time. This is especially important for regression testing.
+
+Coverage: Automated tests can cover a wide range of scenarios, including edge cases that might be missed during manual testing.
+
+Regression Testing: Automated tests are invaluable for regression testing, ensuring that new code changes do not break existing functionality.
+
+Cost-Effectiveness: While the initial setup of automated tests can be time-consuming and costly, they save time and resources in the long run by reducing the need for repetitive manual testing.
 
 - WS3 HTML Testing Validator
 No errors were found when testing HTML file
@@ -138,6 +169,12 @@ JsLint has returned 2 warning, however no problems with logic or syntax.
 The page underwent testing with Google Lighthouse for both desktop and mobile platforms. Despite running the tests without any changes to the page, the Lighthouse results were inconsistent. This inconsistency appeared to be primarily due to layout shifts. Nevertheless, the scores remained acceptable. Through my own testing on various devices, I did not observe significant layout shifts. Even when applying throttling via devtools, there was only a minor layout shift during the initial load, which did not adversely affect the user experience.
 ![Google Lighthouse desktop performance](/assets/images/desktop_perf.jpg)
 ![Google Lighthouse mobile performance](/assets/images/mobile_perf.jpg)
+
+When to Deploy:
+Unit Tests: Automated testing is ideal for testing individual functions and methods in your game logic, such as card shuffling and matching algorithms.
+Integration Tests: Use automated tests to ensure that different parts of your application work together seamlessly.
+Regression Tests: Automated tests are essential whenever new features are added or bugs are fixed, ensuring that existing functionality remains unaffected.
+Performance Testing: Automated tests can simulate multiple game sessions to assess the game’s performance under various conditions.
 
 ## User Stories
 
