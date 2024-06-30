@@ -7,15 +7,24 @@ Each game session starts with these 20 cards being thoroughly shuffled to ensure
 
 
 ## Rationale and Purpose
+
 Astro - The Tarot Whisperer was developed to provide a fun, interactive way to engage with the mystical theme of tarot cards while also testing and improving memory and concentration skills. This game is targeted at individuals who enjoy casual puzzle games and have an interest in tarot and mystical themes. The project serves both as an entertaining pastime and a mental exercise, appealing to a broad audience ranging from children to adults.
 
-Target audience:
+**Target audience:**
 
 - Casual gamers who enjoy simple, engaging puzzle games.
 - Tarot enthusiasts interested in a new way to interact with tarot imagery.
-- Individuals seeking mental stimulation through memory and concentration exercises.
+- Individuals seeking mental stimulation through memory and concentration exercises such as elderly people or kids.
 
-## Wireframes 
+**Real-World Application:**
+
+The real-world application of Astro lies in its ability to serve as both an entertaining game and a cognitive training tool. By challenging players to remember and match pairs of cards, the game helps improve memory retention, concentration, and cognitive flexibility. Additionally, the tarot theme adds an element of mystique and intrigue, making it appealing to a wide audience, including:
+
+
+## UX Design Process
+
+### Wireframes and Mock-ups 
+
 ![Responsiveness](/assets/images/responsive.jpg)
 
 
@@ -24,6 +33,13 @@ Initially, my plan was to create a tarot reading website (initial wireframes bel
 The final layout was built based on the inital wireframe:
 
 ![Inital wireframes](/assets/images/wireframe1.jpg)
+
+### Design Decisions and Reasoning
+
+1. The card layout was designed to be simple and intuitive, with cards arranged in a grid to keep it simple.
+2. The background was chosen to add a mystical and intriguing element to the game. 
+3. The UI was designed to be clean, with a focus on the cards. 
+4. The error counter was included to provide feedback to players.
 
 ## Features
 
