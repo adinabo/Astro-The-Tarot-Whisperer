@@ -193,12 +193,16 @@ Performance Testing: Automated tests can simulate multiple game sessions to asse
 ## User Stories
 
 1. **As a player, I want to be able to click on a card to reveal its symbol, so I can begin playing the game and uncover the hidden symbols.**
+![User story](/assets/images/user_story1.jpg)
 
 2. **I want to be able to click on another card to reveal its symbol, so I can try to find matching pairs and progress in the game.**
+![User story](/assets/images/user_story2.jpg)
 
 3. **As a player, I want the symbols on matching pairs of cards to stay open, so I can track my progress and remember which cards I've already matched.**
+![User story](/assets/images/user_story3.jpg)
 
 4. **As a player, I want the symbols on non-matching pairs of cards to flip back over, so I can continue searching for matching pairs.**
+![User story](/assets/images/user_story4.jpg)
 
 5. **I want the game to have a visually appealing design and theme, so I can enjoy the experience of playing and immerse myself in the game's atmosphere.**
 
