@@ -5,10 +5,23 @@ Astro is an engaging and simple card-matching game where players are tasked with
 
 Each game session starts with these 20 cards being thoroughly shuffled to ensure a unique and unpredictable arrangement, making every game a new and exciting challenge. Players will need to use their memory and concentration skills to remember the positions of the cards as they flip them over, aiming to find all matching pairs with as few mistakes as possible.
 
+
+## Rationale and Purpose
+Astro - The Tarot Whisperer was developed to provide a fun, interactive way to engage with the mystical theme of tarot cards while also testing and improving memory and concentration skills. This game is targeted at individuals who enjoy casual puzzle games and have an interest in tarot and mystical themes. The project serves both as an entertaining pastime and a mental exercise, appealing to a broad audience ranging from children to adults.
+
+Target audience:
+
+- Casual gamers who enjoy simple, engaging puzzle games.
+- Tarot enthusiasts interested in a new way to interact with tarot imagery.
+- Individuals seeking mental stimulation through memory and concentration exercises.
+
+## Wireframes 
 ![Responsiveness](/assets/images/responsive.jpg)
 
 
 Initially, my plan was to create a tarot reading website (initial wireframes below), but I decided that for this project it would be better to experiment with JavaScript and develop a simple and fun game using tarot cards.
+
+The final layout was built based on the inital wireframe:
 
 ![Inital wireframes](/assets/images/wireframe1.jpg)
 
