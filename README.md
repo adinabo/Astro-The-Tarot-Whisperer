@@ -1,10 +1,12 @@
 # Astro - The Tarot Whisperer
+
 https://adinabo.github.io/Astro-The-Tarot-Whisperer/
 
 Astro is an engaging and simple card-matching game where players are tasked with finding matching pairs of tarot cards. In this game, a selection of 10 unique tarot cards is duplicated, creating a total of 20 cards that players must match. The objective is to identify and match all pairs of cards.
 
 Each game session starts with these 20 cards being thoroughly shuffled to ensure a unique and unpredictable arrangement, making every game a new and exciting challenge. Players will need to use their memory and concentration skills to remember the positions of the cards as they flip them over, aiming to find all matching pairs with as few mistakes as possible.
 
+![Responsiveness](/assets/images/responsive.jpg)
 
 ## Rationale and Purpose
 
@@ -24,9 +26,6 @@ The real-world application of Astro lies in its ability to serve as both an ente
 ## UX Design Process
 
 ### Wireframes and Mock-ups 
-
-![Responsiveness](/assets/images/responsive.jpg)
-
 
 Initially, my plan was to create a tarot reading website (initial wireframes below), but I decided that for this project it would be better to experiment with JavaScript and develop a simple and fun game using tarot cards.
 
