@@ -43,6 +43,8 @@ When the user has successfully matched all the cards, a message will be displaye
 - Figma for Wireframes
 - Microsoft Designer for AI generated images
 - Git and Github for version control
+- Visual Studio Code
+- Chrome developer tools
 
 ## Installation
 
@@ -99,20 +101,20 @@ Exploratory Testing: Manual testers can actively explore the game to uncover une
 **Card Selection Test:** 
 
 The objective of this test is to ensure that the game responds correctly when the cards are selected.
-- Expected result
-I was expecting to see only two cards revealed at the same time, with no errors.
-- Steps
+- Expected result:
+To see only two cards revealed at the same time, with no errors, and it works as expected.
+- Steps:
 Clicked on three or more cards consecutively to check if each card reveals correctly.
 Verified that after the second card is selected, unmatched cards are hidden again.
 Ensured that matched cards remain visible.
 
 **Game Reset Test:**
 
-- Objective
+- Objective:
 To ensure the game resets correctly when the "Start Game" button is pressed.
-- Expected result
-I was expecting to see the game board and error counter reset correctly upon pressing the "Start Game" button.
-- Steps
+- Expected result:
+To see the game board and error counter reset correctly upon pressing the "Start Game" button, and it works as expected.
+- Steps:
 Started the game and revealed several cards.
 Pressed the "Start Game" button.
 Verified that the game board is reset and all cards are hidden.
@@ -120,21 +122,21 @@ Checked that the error counter is reset to zero.
 
 **Device Compatibility Test:**
 
-- Objective
+- Objective:
  To ensure that the game displays and functions correctly on various devices.
-- Expected result
+- Expected result:
 As expected, the game is fully functional and visually appealing across all tested devices.
-- Steps
+- Steps:
 Played the game on different devices, such as a laptop, desktop, iPhone 14, and Samsung S24.
 Verified that the game layout is responsive and adjusts correctly to different screen sizes.
 Checked for any visual or functional issues specific to each device
 
 **Error Counter Test:** 
-- Objective
+- Objective:
 To ensure the error counter accurately tracks the number of incorrect matches.
-- Expected result
+- Expected result:
 As expected, the error counter updates accurately with each incorrect match.
-- Steps
+- Steps:
 Intentionally mismatched cards multiple times.
 Observed the error counter to see if it increments correctly with each mismatch and it did.
 
@@ -146,6 +148,7 @@ Ad-Hoc Testing: Conduct manual testing for spontaneous, unplanned sessions to un
 Initial Development Stages: At the beginning of the development process, manual testing helps identify and address critical issues quickly before automated test scripts are created, ensuring a stable foundation for further development.
 
 Complex Test Cases: Deploy manual testing for scenarios that require human judgment, creativity, and insight, which are difficult to replicate with automated tests, to ensure comprehensive coverage and quality
+
 ## Automated Testing
 
 **Principles:**
